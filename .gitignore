@@ -1,3 +1,63 @@
-build/
-refer/
+# 通用
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+
+# C++/CMake/Make
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+*.vcxproj*
+*.user
+*.sln
+*.cbp
+
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn.lock
+
+# Husky
+.husky/_/
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 参考资料
+refer/
+
+# 其他
+*.bak
+*.old
+
+# 保留test/和作业目录
+!test/
+
+# 保留关键课件和代码文件
+!*.md
+!*.cpp
+!*.h
+!CMakeLists.txt

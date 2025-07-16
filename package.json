@@ -1,0 +1,25 @@
+{
+  "name": "raai-foundation-course",
+  "version": "1.0.0",
+  "description": "It is a repository of robotics and artificial intelligence learning covering robot kinematics, dynamics, image processing, machine learning, SLAM, reinforcement learning, parallel algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Math-Still/RAAI-Foundation-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Math-Still/RAAI-Foundation-course/issues"
+  },
+  "homepage": "https://github.com/Math-Still/RAAI-Foundation-course#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
