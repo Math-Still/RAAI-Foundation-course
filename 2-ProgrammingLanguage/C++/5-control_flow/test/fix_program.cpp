@@ -10,14 +10,15 @@ int main() {
     */
 
     // Number one
-    // 修改程序，使得occurs输出为 0，并无语法错误
-    constexpr int ival = 1;
-    constexpr int minval = 0;
+    // 修改程序，使得occurs和flag输出都为 0。
+    const int ival = 1;
+    const int minval = 0;
+    int flag = 0;
     int occurs = 0;
     if (ival < minval)
-        minval = ival;
-        occurs++; 
-    std::cout << occurs << std::endl;
+        flag++;
+        occurs++;
+    std::cout << occurs << " " << flag << std::endl;
 
     // Number two
     // 修改程序，使其编译通过
@@ -36,23 +37,15 @@ int main() {
             bufsize = val3 * sizeof(int);
             break;
     }
-
-    // Number three
-    // 修改程序, 使程序可以通过编译并能正常停止
-    int ix = 2;
-    int sz = 1;
-    for (ix != sz;++ix) {
-        // DO SOMETHING
-    }
     
-    // Number four
-    // 更正下面程序的错误
+    // Number three
+    // 更正下面程序的作用域错误
     do
         int v1,v2;
-        cout << "Please enter two numbers to sum:";
+        std::cout << "Please enter two numbers to sum:";
         if (cin >> v1 >> v2)
-            cout << "Sum is: " << v1 + v2 << std::endl;
-    while (cin);
+            std::cout << "Sum is: " << v1 + v2 << std::endl;
+    while (std::cin);
 
     return 0;
 }

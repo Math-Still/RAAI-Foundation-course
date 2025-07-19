@@ -126,24 +126,20 @@ void fix_program() {
     }
 
     // Number three修复
-    int ix = 2;
-    int sz = 1;
-    for (; ix != sz; ++ix) {  // 修正for循环语法，添加初始化部分的分号
-        // DO SOMETHING
-        if (ix > 100) break;  // 防止无限循环的保护措施
-    }
-    
-    // Number four修复
-    int v1, v2;  // 将变量声明移到do-while循环外
+    // 加上大括号
     do {
+        int v1, v2; 
         std::cout << "Please enter two numbers to sum:";
         if (std::cin >> v1 >> v2)
             std::cout << "Sum is: " << v1 + v2 << std::endl;
-        else {
-            std::cin.clear();  // 清除错误标志
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // 忽略缓冲区中的错误输入
-        }
     } while (std::cin);  // 保持输入流检查
+
+    return 0;
+}
+
+int main() {
+
+
 
     return 0;
 }
