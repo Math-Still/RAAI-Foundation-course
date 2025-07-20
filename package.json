@@ -4,7 +4,7 @@
   "description": "It is a repository of robotics and artificial intelligence learning covering robot kinematics, dynamics, image processing, machine learning, SLAM, reinforcement learning, parallel algorithms.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo 'skip test'; exit 0",
     "prepare": "husky"
   },
   "repository": {
