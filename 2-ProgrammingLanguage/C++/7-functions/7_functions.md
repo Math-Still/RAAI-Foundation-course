@@ -2,7 +2,7 @@
 
 > 原文：[C++ Functions](https://en.cppreference.com/w/cpp/language/functions)
 
-> 译者：RAAI学习团队
+
 
 函数是C++程序的基本构建块。函数是一段可以重复使用的代码，它接受输入（参数），执行一些操作，然后返回一个值。函数帮助我们组织代码，避免重复，并使程序更易于理解和维护。
 

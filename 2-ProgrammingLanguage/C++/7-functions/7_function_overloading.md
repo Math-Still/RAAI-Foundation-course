@@ -2,7 +2,7 @@
 
 > 原文：[C++ Function Overloading](https://en.cppreference.com/w/cpp/language/overload_resolution)
 
-> 译者：RAAI学习团队
+
 
 函数重载是C++的一个重要特性，它允许在同一作用域中定义多个同名但参数不同的函数。编译器根据调用时提供的参数类型和数量来选择正确的函数版本。
 

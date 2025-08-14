@@ -1,7 +1,5 @@
 # 第二章节 C++语法框架
 
-> refer：[learncodethehardway](http://c.learncodethehardway.org)
-
 ## C++语法
 
 语法指的是在编程语言中编写语句的规则和规定。它们也可以被看作是定义编程语言结构的语法规则。
